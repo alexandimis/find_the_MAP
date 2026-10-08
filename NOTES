@@ -1,0 +1,14 @@
+# GAME SPECS
+	
+
+# GAME BEHAVIOR
+	- Map is hidden to everyone EXCEPT those who have found a "map" item
+	- ONLY neighbouring rooms are visible to you without a map
+	- Popup messages for clues
+	- Map reveals a certain area around you, NOT THE ENTIRE MAP (because we are lazy)
+
+	- Items can have rarities
+
+# FOR DEVELOPERS
+	- Game map is a grid of "rooms" with attributes (room, corridor etc)
+	- Check ncurses library (for alex)
